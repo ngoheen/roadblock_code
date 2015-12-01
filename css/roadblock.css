@@ -1,0 +1,188 @@
+/*
+colors:
+#484848 = rgb(72,72,72)
+#666666 = rgb(102,102,102)
+#a5a5a5 = rgb(165,165,165)
+#009aff = rgb(0,154,255)
+#4999ff = rgb(73,153,255)
+#cccccc = rgb(204,204,204)
+#468cf5 = rgb(70,140,245)
+#878787 = rgb(135,135,135)
+*/
+@font-face {
+    font-family: 'Futura Today';
+    src: url(fonts/futura_today_normal.eot);
+    src: url(fonts/futura_today_normal.eot?#iefix) format("embedded-opentype"),
+    	url(fonts/futura_today_normal.woff) format("woff"),
+    	url(fonts/futura_today_normal.ttf) format("truetype"),
+    	url(fonts/futura_today_normal.svg#Futura_Today) format("svg");
+    font-style: normal;
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: 'Futura Today Bold';
+    src: url(fonts/futura_today_bold.eot);
+    src: url(fonts/futura_today_bold.eot?#iefix) format("embedded-opentype"),
+    	url(fonts/futura_today_bold.woff) format("woff"),
+    	url(fonts/futura_today_bold.ttf) format("truetype"),
+    	url(fonts/futura_today_bold.svg#Futura_Today_Bold) format("svg");
+    font-style: normal;
+    font-weight: 400;
+}
+@font-face {
+    font-family: 'Futura Today Demi Bold';
+    src: url(fonts/futura_today_demibold.eot);
+    src: url(fonts/futura_today_demibold.eot?#iefix) format("embedded-opentype"),
+    	url(fonts/futura_today_demibold.woff) format("woff"),
+    	url(fonts/futura_today_demibold.ttf) format("truetype"),
+    	url(fonts/futura_today_demibold.svg#Futura_Today) format("svg");
+    font-style: normal;
+    font-weight: 400;
+}
+@font-face {
+    font-family: 'Futura Today Light';
+    src: url(fonts/futura_today_light.eot);
+    src: url(fonts/futura_today_light.eot?#iefix) format("embedded-opentype"),
+    	url(fonts/futura_today_light.woff) format("woff"),
+    	url(fonts/futura_today_light.ttf) format("truetype"),
+    	url(fonts/futura_today_light.svg#Futura_Today_Light) format("svg");
+    font-style: normal;
+    font-weight: 400;
+}
+@font-face {
+    font-family: 'Helvetica Neue Light';
+    src: url(fonts/helveticaneue-light-webfont.eot);
+    src: url(fonts/helveticaneue-light-webfont.eot?#iefix) format("embedded-opentype"),
+    	url(fonts/helveticaneue-light-webfont.woff) format("woff"),
+    	url(fonts/helveticaneue-light-webfont.ttf) format("truetype"),
+    	url(fonts/helveticaneue-light-webfont.svg#Futura_Today_Light) format("svg");
+    font-style: normal;
+    font-weight: 400;
+}
+
+a {
+	color: rgb(0,154,255);
+    text-decoration: none;
+}
+
+.rb-ad {
+	margin: 20px -15px;
+}
+
+.rb-body {
+	-webkit-text-size-adjust: none;
+	box-sizing: border-box;
+	color: rgb(51,51,51);
+    font-family: 'Helvetica Neue Light','HelveticaNeueLight','HelveticaNeue-Light','HelveticaNeue','Helvetica Neue',Helvetica,Arial,sans-serif;
+    font-size: 15px;
+	margin: 25px;
+	padding: 0;
+	text-align: center;
+}
+.rb-h2 {
+	/*color: rgb(102,102,102);*/
+	color: rgb(135,135,135);
+	font: 16px/25px 'Futura Today', sans-serif;
+	padding: 0;
+	margin: 0;
+}
+.rb-h1 {
+	color: rgb(72,72,72); 
+	font: 23px/30px 'Futura Today Demi Bold', sans-serif;
+	letter-spacing: -0.0325em;
+	margin: 0;
+	padding: 0;
+}
+
+.rb-h3 {
+	color: rgb(165,165,165);
+	font: 14px/17px 'Helvetica Neue Regular', sans-serif;
+	width: 250px;
+	margin: 10px auto;
+}
+
+.rb-subscribe-btn,
+.rb-login-btn {
+	background: rgb(73,153,255);
+	border: 1px solid rgb(70,140,245);
+	border-radius: 3px;
+	height: 50px;
+	margin: 10px auto 12px auto;
+	overflow: hidden;
+	text-align: center;
+	text-transform: uppercase;
+	vertical-align: middle;
+	width: 270px;
+}
+.rb-subscribe-txt,
+.rb-login-txt {
+	color: rgb(255,255,255);
+	font: 18px/18px 'Futura Today', sans-serif;
+	letter-spacing: .05em;
+	margin: 16px 0;
+}
+.rb-promo {
+	border-bottom: 1px solid rgb(204,204,204);
+	border-top: 1px solid rgb(204,204,204);
+	box-sizing: border-box;
+	height: 250px;
+	margin: 20px -25px 20px -25px;
+	overflow: hidden;
+}
+.rb-promo-inner-wrap {
+	border: none;
+	height: auto;
+	width: auto;
+}
+.rb-promo-date {
+	color: rgb(102,102,102);
+	font: 18px/18px 'Futura Today', sans-serif;
+	margin: 20px 0 0;
+	text-transform: uppercase;
+}
+.rb-promo-subtext {
+	color: rgb(165,165,165);
+	font: 12px/20px 'Helvetica Neue Light', sans-serif;
+	letter-spacing: .05em;
+}
+.rb-price-wrap {
+	display: table;
+	text-align: center;
+	width: 100%;
+}
+.rb-price {
+	color: rgb(51,51,51);
+	display: table-cell;
+	font: 60px/60px 'Futura Today', sans-serif;
+	text-align: center;
+	vertical-align: top;
+}
+.rb-smaller-price {
+	color: rgb(51,51,51);
+	font: 25px/60px 'Futura Today', sans-serif;
+	display: inline-block;
+	margin-top: -12px;
+	vertical-align: top;
+}
+/* tablet and larger */
+@media only screen and (min-width: 600px) {
+	.rb-promo {
+		border-top: none;
+		border-bottom: none;
+	}
+	.rb-promo-inner-wrap {
+		border:  1px solid rgb(204,204,204);
+		height: 220px;
+		margin: auto;
+		text-align: center;
+		width: 230px;
+	}
+	.rb-subscribe-btn,
+	.rb-login-btn {
+		width: 190px;
+	}
+	.rb-h3 {
+		width: auto;
+	}
+}
